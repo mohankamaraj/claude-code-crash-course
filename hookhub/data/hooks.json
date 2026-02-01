@@ -1,0 +1,134 @@
+[
+  {
+    "id": "webhook",
+    "name": "webhook",
+    "category": "general",
+    "description": "Lightweight configurable tool for creating HTTP endpoints that trigger shell commands",
+    "repoUrl": "https://github.com/adnanh/webhook",
+    "repoSlug": "adnanh/webhook",
+    "language": "Go",
+    "stars": 10200,
+    "license": "MIT"
+  },
+  {
+    "id": "svix-webhooks",
+    "name": "Svix Webhooks",
+    "category": "integrations",
+    "description": "Enterprise-ready webhooks service with delivery guarantees and management dashboard",
+    "repoUrl": "https://github.com/svix/svix-webhooks",
+    "repoSlug": "svix/svix-webhooks",
+    "language": "Rust",
+    "stars": 2400,
+    "license": "MIT"
+  },
+  {
+    "id": "go-playground-webhooks",
+    "name": "webhooks",
+    "category": "integrations",
+    "description": "Multi-platform webhook receiver supporting GitHub, GitLab, Bitbucket, and more",
+    "repoUrl": "https://github.com/go-playground/webhooks",
+    "repoSlug": "go-playground/webhooks",
+    "language": "Go",
+    "stars": 960,
+    "license": "MIT"
+  },
+  {
+    "id": "standard-webhooks",
+    "name": "Standard Webhooks",
+    "category": "general",
+    "description": "Open specification and tooling for creating consistent webhook implementations",
+    "repoUrl": "https://github.com/standard-webhooks/standard-webhooks",
+    "repoSlug": "standard-webhooks/standard-webhooks",
+    "language": "TypeScript",
+    "stars": 1200,
+    "license": "MIT"
+  },
+  {
+    "id": "hookdeck-cli",
+    "name": "Hookdeck CLI",
+    "category": "deployment",
+    "description": "CLI tool for local webhook development with tunneling and request inspection",
+    "repoUrl": "https://github.com/hookdeck/hookdeck-cli",
+    "repoSlug": "hookdeck/hookdeck-cli",
+    "language": "Go",
+    "stars": 180,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "localtunnel",
+    "name": "localtunnel",
+    "category": "deployment",
+    "description": "Expose your localhost to the world for testing webhooks and sharing demos",
+    "repoUrl": "https://github.com/localtunnel/localtunnel",
+    "repoSlug": "localtunnel/localtunnel",
+    "language": "JavaScript",
+    "stars": 19000,
+    "license": "MIT"
+  },
+  {
+    "id": "captain-hook",
+    "name": "Captain Hook",
+    "category": "ci-cd",
+    "description": "Git hooks manager for automating pre-commit, post-commit, and other git workflows",
+    "repoUrl": "https://github.com/swellaby/captain-hook",
+    "repoSlug": "swellaby/captain-hook",
+    "language": "TypeScript",
+    "stars": 32,
+    "license": "MIT"
+  },
+  {
+    "id": "webhook-relay",
+    "name": "Webhook Relay",
+    "category": "data-sync",
+    "description": "Receive, transform, and forward webhooks to internal services securely",
+    "repoUrl": "https://github.com/webhookrelay/webhookrelay-go",
+    "repoSlug": "webhookrelay/webhookrelay-go",
+    "language": "Go",
+    "stars": 45,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "alertmanager",
+    "name": "Alertmanager",
+    "category": "notifications",
+    "description": "Handles alerts from Prometheus with deduplication, grouping, and routing to webhooks",
+    "repoUrl": "https://github.com/prometheus/alertmanager",
+    "repoSlug": "prometheus/alertmanager",
+    "language": "Go",
+    "stars": 6500,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "gotify",
+    "name": "Gotify",
+    "category": "notifications",
+    "description": "Self-hosted push notification server with webhook integration and mobile apps",
+    "repoUrl": "https://github.com/gotify/server",
+    "repoSlug": "gotify/server",
+    "language": "Go",
+    "stars": 11000,
+    "license": "MIT"
+  },
+  {
+    "id": "argo-events",
+    "name": "Argo Events",
+    "category": "ci-cd",
+    "description": "Event-driven workflow automation for Kubernetes with webhook triggers",
+    "repoUrl": "https://github.com/argoproj/argo-events",
+    "repoSlug": "argoproj/argo-events",
+    "language": "Go",
+    "stars": 2400,
+    "license": "Apache-2.0"
+  },
+  {
+    "id": "flux",
+    "name": "Flux",
+    "category": "deployment",
+    "description": "GitOps toolkit for Kubernetes with webhook receivers for automated deployments",
+    "repoUrl": "https://github.com/fluxcd/flux2",
+    "repoSlug": "fluxcd/flux2",
+    "language": "Go",
+    "stars": 6400,
+    "license": "Apache-2.0"
+  }
+]
