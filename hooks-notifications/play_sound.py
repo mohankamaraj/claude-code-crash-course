@@ -1,21 +1,9 @@
-import pygame
-import os
+import sys
+from datetime import datetime
 
-def main():
-    pygame.mixer.init()
+print("CLAUDE PYTHON:", sys.executable, flush=True)
+print("STOP HOOK TRIGGERED!", file=sys.stderr, flush=True)
 
-    sound_file = os.path.join(os.path.dirname(__file__), "ulala.wav")
-
-    if not os.path.exists(sound_file):
-        print(f"Error: Sound file not found at {sound_file}")
-        return
-
-    sound = pygame.mixer.Sound(sound_file)
-    sound.play()
-
-    while pygame.mixer.get_busy():
-        pygame.time.Clock().tick(10)
-
-
-if __name__ == "__main__":
-    main()
+# Write to a log file to confirm execution
+with open("/tmp/claude_stop_hook.log", "a") as f:
+    f.write(f"{datetime.now()}: Stop hook executed\n")
