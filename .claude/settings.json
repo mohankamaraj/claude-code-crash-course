@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "uv run /Users/mkamaraj/Library/CloudStorage/OneDrive-ExpediaGroup/Mohan/Personal/Technical/projects/claude-code-crash-course/hooks-notifications/play_sound.py"
+          }
+        ]
+      }
+    ]
+  }
+}
